@@ -79,3 +79,7 @@ vim.opt.tabstop = 4
 
 --indent size
 vim.opt.shiftwidth = 4
+
+-- Disable modeline
+vim.opt.modeline = false
+vim.opt.modelines = 0
