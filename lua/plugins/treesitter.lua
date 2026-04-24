@@ -45,12 +45,8 @@ return {
         ]]
         -- indentation
         vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
-        vim.treesitter.start()
+        pcall(vim.treesitter.start)
       end,
     })
-
-    -- 4️⃣ Use treesitter for folding (optional but recommended)
-    -- vim.opt.foldmethod = "expr"
-    -- vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
   end,
 }
