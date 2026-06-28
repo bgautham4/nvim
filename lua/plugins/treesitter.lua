@@ -16,6 +16,7 @@ return {
       "bash",
       "c",
       "cpp",
+      "csv",
       "diff",
       "fish",
       "html",
@@ -28,6 +29,7 @@ return {
       "query",
       "systemverilog",
       "tcl",
+      "tsv",
       "vim",
       "vimdoc",
     }
